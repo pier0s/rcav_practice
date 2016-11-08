@@ -1,0 +1,21 @@
+<h1><%= @title %></h1>
+
+<%if @title=="Square"%>
+
+The square of <%= @num %> is <%= @square %>.
+
+<%elsif @title=="Square Root"%>
+
+The square root of <%= @num %> is <%= @square_root %>.
+
+<%elsif @title=="Random Number"%>
+
+A random number between <%= @min %> and <%= @max %> is <%= @ranum %>.
+
+<%elsif @title=="Payment"%>
+
+A <%= @years %> year loan of $<%= @value %> , with an annual interest rate of <%= @interest %>%, requires a monthly payment of $<%= @monthly_payment%>.
+
+
+
+<%end%>
